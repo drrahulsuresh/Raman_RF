@@ -1,3 +1,10 @@
+'''
+Jade's 
+Perform Undersampling and Smote
+print the number of samples in each class before and after 
+'''
+
+
 import pandas as pd
 import numpy as np
 import os
