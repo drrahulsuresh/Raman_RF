@@ -6,11 +6,12 @@ import seaborn as sns
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from imblearn.over_sampling import SMOTE
-from sklearn.model_selection import GridSearchCV, cross_val_score, train_test_split, StratifiedKFold, roc_curve, auc, RocCurveDisplay
+from sklearn.model_selection import GridSearchCV, cross_val_score, train_test_split, StratifiedKFold
 from sklearn.pipeline import Pipeline
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
+from sklearn.metrics import roc_curve, auc, RocCurveDisplay
 
 def read_file(filepath):
     filename = os.path.basename(filepath)
